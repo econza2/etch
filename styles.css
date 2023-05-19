@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+
+.container-vertical {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    background-color: gray;
+}
+
+
+.container-horizontal{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.innerH{
+    flex: 1;
+}
+
